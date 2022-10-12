@@ -12,7 +12,7 @@ module.exports = {
     // Author name, shown in left sidebar, and used in JSON-LD
     author: "Manish Maharjan",
     // Site description, shown below site image (optional)
-    description: "Technical Stuff",
+    description: "writing my thoughts, knowledge etc",
     // OpenGraph default image, in case you don't have an `image`
     // set in your Markdown frontmatter; relevant for social
     // sharing.
