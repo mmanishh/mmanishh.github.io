@@ -1,0 +1,30 @@
+name: Eleventy Build
+
+on:
+  push:
+    branches:
+      - source
+      - main
+  schedule:
+    # everyday at 8 PM UTC
+    - cron: '0 20 * * *'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - run: yarn install
+      - run: yarn build
+        env:
+          GA_API_ENDPOINT: ${{ secrets.GA_API_ENDPOINT }}
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v1.1.0
+        env:
+          PUBLISH_DIR: _site
+          PUBLISH_BRANCH: gh-pages
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
