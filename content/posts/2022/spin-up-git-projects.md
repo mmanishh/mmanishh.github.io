@@ -4,14 +4,14 @@ date: 2022-10-12
 image: /assets/images/2022/gitpod.png
 ---
 
-If you are looking to spin up your git projects from Github, Gitlab and Bitbucket in seconds without installing it locally then this post might be helpful. We will spin up a Express app and a server is up in seconds with the help of Gitpod.
+If you are looking to spin up your git projects from Github, Gitlab, and Bitbucket in seconds without installing it locally then this post might be helpful. We will spin up an Express app and a server is up in seconds with the help of Gitpod.
 
 ## About Gitpod
- [Gitpod.io](https://gitpod.io) is a tool that can provide fully initialized, perfectly set-up developer environments for any kind of software project hosted in Github, Gitlab, Bitbucket right in your browser.
+ [Gitpod.io](https://gitpod.io) is a tool that can provide fully initialized, perfectly set-up developer environments for any kind of software project hosted in GitHub, Gitlab, and Bitbucket right in your browser.
 
 ## Features of Gitpod
 
-- Spin up projects in seconds in cloud
+- Spin up projects in seconds in the cloud
 - Remote development without friction
 - Works on my machine - and yours
 - Multi track development with ease
@@ -22,7 +22,8 @@ If you are looking to spin up your git projects from Github, Gitlab and Bitbucke
 
 ### 1. Prefixing URL
 
-To run any project in gitpod, you need to prefix with `gitpod.io/#` , It's as simple as that. For example, if you need to run a github repo `https://github.com/geshan/nodejs-sqlite` in gitpod you simply prefix the url. The prefixed url for above repo would be: [gitpod.io/#https://github.com/geshan/nodejs-sqlite](https://gitpod.io/#https://github.com/geshan/nodejs-sqlite). It will bootstrap all the prerequisites, install all the dependencies and you are ready to use the app. The workspace in Gitpod is imilar to that of Visual Studio Code. Attached screenshot of the workspace in Gitpod.
+To run any project in gitpod, you need to prefix with `gitpod.io/#`, It's as simple as that. For example, if you need to run a GitHub repo `https://github.com/geshan/nodejs-sqlite` in gitpod you simply prefix the URL. The prefixed URL for the above repo would be `gitpod.io/#https://github.com/geshan/nodejs-sqlite`. It will bootstrap all the prerequisites, install all the dependencies and you are ready to use the app. The workspace in Gitpod is similar to that of Visual Studio Code. Attached screenshot of the workspace in Gitpod.
+
 
 ![Gitpod Repo](/assets/images/2022/gitpod_repository.png)
 
@@ -34,7 +35,8 @@ Gitpod has browser extension for [Chrome](https://chrome.google.com/webstore/det
 
 ### 3. Adding Open in GitPod button in your Project
 
-You can also add `Open in Gitpod` button in your project markdown just like below: 
+You can also add `Open in Gitpod` button in your project markdown just like below with this markdown: 
+`[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#<your-repository-url>)`
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#<your-repository-url>)
 
@@ -42,8 +44,6 @@ here, your-repository-url can be something like: https://github.com/gitpod-io/we
 
 ## Conclusion
 
-We learned how to spin up fresh, automated dev environments
-for each task, in the cloud, in seconds improving our productivity. It remove the hassle to clone the repo in your machine, installing dependencies and running your project.
-
+We learned how to spin up fresh, automated dev environments for each task, in the cloud, in seconds improving our productivity. It removes the hassle to clone the repo in your machine, installing dependencies, and running your project.
 
 
