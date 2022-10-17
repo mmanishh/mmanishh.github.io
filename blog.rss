@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{ mmanishh }</title>
+  <subtitle>writing my thoughts, knowledge etc</subtitle>
+  <link href="http://localhost:8080/blog.rss" rel="self"/>
+  <link href="http://localhost:8080"/>
+  <updated>2022-10-12T00:00:00Z</updated>
+  <id>http://localhost:8080</id>
+  <author>
+    <name>Manish Maharjan</name>
+  </author>
+  
+  <entry>
+    <title>Spin up Git Projects in Cloud within Seconds with Gitpod</title>
+    <link href="http://localhost:8080/posts/2022/spin-up-git-projects/"/>
+    <updated>2022-10-12T00:00:00Z</updated>
+    <id>http://localhost:8080/posts/2022/spin-up-git-projects/</id>
+    <content type="html">&lt;p&gt;If you are looking to spin up your git projects from Github, Gitlab, and Bitbucket in seconds without installing it locally then this post might be helpful. We will spin up an Express app and a server is up in seconds with the help of Gitpod.&lt;/p&gt;
+&lt;h2 id=&quot;about-gitpod&quot;&gt;About Gitpod&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitpod.io/&quot;&gt;Gitpod.io&lt;/a&gt; is a tool that can provide fully initialized, perfectly set-up...</content>
+  </entry>
+</feed>
