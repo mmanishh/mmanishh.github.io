@@ -24,7 +24,8 @@ jobs:
           GA_API_ENDPOINT: ${{ secrets.GA_API_ENDPOINT }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v1.1.0
-        env:
-          PUBLISH_DIR: _site
-          PUBLISH_BRANCH: gh-pages
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _site
+          publish_branch: gh-pages
+          cname: manishm.com.np
