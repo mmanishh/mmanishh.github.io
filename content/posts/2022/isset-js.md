@@ -1,4 +1,8 @@
-# Isset Equivalent in Javascript
+---
+title: Isset Equivalent in Javascript
+date: 2022-10-25
+image: /assets/images/2022/isset_php.png
+---
 
 ## Isset in PHP
 
