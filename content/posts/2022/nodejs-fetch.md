@@ -1,5 +1,5 @@
 ---
-title: NodeJS Fetch
+title: Fetch in NodeJS
 date: 2022-11-21
 image: /assets/images/2022/nodejs-fetch.svg
 ---
@@ -24,7 +24,7 @@ However Fetch API has been there since 2015, it hasn`t been included in NodeJS c
 
 If you were about to use Fetch API in NodeJS runtime on the version below 17 just like in the browser then you might have encountered this problem.
 
-```
+```sh
 ReferenceError: fetch is not defined
 ```
 
@@ -51,7 +51,7 @@ But by installing other third-party libs/alternatives you can use fetch API in N
 
 Using npm:
 
-```
+```sh
 npm install axios
 ```
 
@@ -94,7 +94,7 @@ axios.get('/user?ID=12345')
 
 Using npm (requires Node.js 12.0.0):
 
-```
+```sh
 npm install node-fetch
 ```
 
@@ -182,7 +182,7 @@ const json = await res.json()
 
 Fetch API is finally available to NodeJS from `v17.6`. You can now run Fetch-related code by adding the --experimental-fetch parameter with the node command:
 
-```
+```sh
 node app.js --experimental-fetch
 ```
 
