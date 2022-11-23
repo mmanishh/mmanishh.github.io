@@ -4,8 +4,6 @@ date: 2022-11-21
 image: /assets/images/2022/nodejs-fetch.svg
 ---
 
-## Fetch in NodeJS
-
 Fetch API was introduced in 2015 and launched as a modern successor to `XMLHttpRequest` and it has become the default method to make an asynchronous HTTP request in web applications. Out of the many advantages over `XMLHttpRequest`, it offers the promise of making your code cleaner.
 
 The Fetch API is provided as a high-level function, and in its most basic version, it takes a URL and produces a promise that resolves to the response:
