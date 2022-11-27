@@ -4,8 +4,6 @@ date: 2022-10-25
 image: /assets/images/2022/isset_php.png
 ---
 
-## Isset in PHP
-
 The isset() function in PHP checks whether a variable is set, which means that it has to be declared and is not NULL. This function returns true if the variable exists and is not NULL, otherwise, it returns false.
 
 ```php

@@ -1,5 +1,5 @@
 ---
-title: Fetch in NodeJS
+title: How to Fetch in NodeJS
 date: 2022-11-21
 image: /assets/images/2022/nodejs-fetch.svg
 ---
