@@ -1,18 +1,16 @@
 ---
-title: || vs ?? Operator in Javascript
+title: ?? vs || Operator in Javascript
 date: 2023-01-16
 image: /assets/images/2023/null_vs_or.png
 ---
 
-# || vs ?? Operator in Javascript
-
-There are two operators?? (Nullish coalescing operator) and || (OR Operator) which is confusing though their usage is almost similar but there is a subtle difference between the two which we will be going through in this post.
+There are two operators `??` (Nullish coalescing operator) and `||` (OR Operator) which is confusing though their usage is almost similar but there is a subtle difference between the two which we will be going through in this post.
 
 # The Difference
 
 The important difference between them is that:
 
-```
+```js
 || returns the first truthy value 
 ?? returns the first defined value
 ```
@@ -85,7 +83,7 @@ Here, the discount is an empty string so
 
 ## Using ?? with && or ||
 
-Javascript forbids uisng using with `??`, `||` and `&&` together. It will raise Syntax Error.
+Javascript forbids using with `??`, `||` and `&&` together. It will raise Syntax Error.
 
 ```js
 let x = 1 || 2 ?? 3; // Syntax error
